@@ -8,7 +8,7 @@ from pandas.tseries.offsets import DateOffset
 import warnings
 warnings.filterwarnings("ignore") # specify to ignore warning messages
 import streamlit as st
-from plotly import graph_objs as go
+#from plotly import graph_objs as go
 
 st.title('CO2 EMISSION FORECASTING')
 def user_input_features():
