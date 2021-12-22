@@ -1,13 +1,8 @@
 import numpy as np
 import pandas as pd
-import seaborn as sns
-import matplotlib.pylab
 import matplotlib.pyplot as plt
-import scipy.stats as stats
 import datetime
-import itertools
 import warnings
-from math import sqrt
 from pandas import read_csv
 from statsmodels.tsa.arima.model import ARIMA
 from pandas.tseries.offsets import DateOffset
