@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings("ignore") # specify to ignore warning messages
 import streamlit as st
 #from plotly import graph_objs as go
-!pip install openpyxl
+conda install openpyxl
 st.title('CO2 EMISSION FORECASTING')
 def user_input_features():
     Years = st.number_input('Years of Prediction:', 1, 20)
