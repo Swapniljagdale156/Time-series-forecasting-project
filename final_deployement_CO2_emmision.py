@@ -2,8 +2,7 @@
 import pandas as pd
 import datetime
 import warnings
-from pandas import read_csv
-#from statsmodels.tsa.arima_model import ARIMA
+from statsmodels.tsa.arima_model import ARIMA
 from pandas.tseries.offsets import DateOffset
 import warnings
 warnings.filterwarnings("ignore") # specify to ignore warning messages
