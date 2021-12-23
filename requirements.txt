@@ -1,4 +1,4 @@
-python -m pip install --upgrade pip
+pip install --upgrade pip 
 streamlit_aggrid==0.1.8
 Markdown==3.3.3
 seaborn==0.11.0
