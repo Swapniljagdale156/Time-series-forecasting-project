@@ -4,7 +4,7 @@ Markdown==3.3.3
 seaborn==0.11.0
 statsmodels == 0.12.2
 plotly==4.14.1
-streamlit==0.73.0
+streamlit==1.0.0
 ortools==8.0.8283
 graphviz==0.15
 geopy==2.1.0
