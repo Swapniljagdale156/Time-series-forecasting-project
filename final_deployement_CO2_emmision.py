@@ -12,7 +12,7 @@ import openpyxl
 
 st.title('CO2 EMISSION FORECASTING')
 def user_input_features():
-    Years = st.number_input('Years of Prediction:', min_value=1, max_value=20, value=1, step=1)
+    Years = st.number_input('Years of Prediction:', min_value=1, max_value=400, value=1, step=1)
     return Years 
 
 df = user_input_features()+1
@@ -40,7 +40,7 @@ final_arima = final_arima.fit()
 
 final_arima.fittedvalues.tail()
 
-future_data['CO2'] = final_arima.predict(start = 215, end = 260, dynamic= True) 
+future_data['CO2'] = final_arima.predict(start = 215, end = 400, dynamic= True) 
 
 
 # Plot raw data
