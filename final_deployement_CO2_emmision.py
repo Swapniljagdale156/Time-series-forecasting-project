@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore") # specify to ignore warning messages
 import streamlit as st
 #from plotly import graph_objs as go
 import openpyxl
-
+import os
 
 st.title('CO2 EMISSION FORECASTING')
 def user_input_features():
@@ -21,7 +21,6 @@ df = user_input_features()+1
 st.subheader('User Input parameters')
 st.write(df)
 
-import pandas as pd 
 from datetime import datetime
 
 
