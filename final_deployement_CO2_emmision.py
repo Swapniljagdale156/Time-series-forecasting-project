@@ -9,7 +9,6 @@ import warnings
 warnings.filterwarnings("ignore") # specify to ignore warning messages
 import streamlit as st
 #from plotly import graph_objs as go
-streamlit_echarts==0.2.0
 openpyxl
 
 
