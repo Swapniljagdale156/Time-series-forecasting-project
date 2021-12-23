@@ -20,3 +20,6 @@ Pillow==8.1.2
 stqdm==0.0.3
 streamlit_echarts==0.2.0
 openpyxl
+pip install --upgrade pip
+
+from statsmodels.tsa.arima_model import ARIMA
