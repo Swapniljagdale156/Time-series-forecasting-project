@@ -1,3 +1,4 @@
+pip == 21.3.1
 streamlit_aggrid==0.1.8
 Markdown==3.3.3
 seaborn==0.11.0
