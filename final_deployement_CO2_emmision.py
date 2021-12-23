@@ -26,8 +26,9 @@ def dateparse(dates):
     return datetime.strptime(dates, '%Y')
 
 
-data = pd.read_csv("CO2 dataset.csv")
-
+data = pd.read_excel("CO2 dataset.xlsx",
+                           parse_dates=['Year'],
+                           index_col='Year')#engine='openpyxl'
 
 
 #Model Building
